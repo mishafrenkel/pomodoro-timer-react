@@ -14,8 +14,8 @@ Demo
 View project demo at
 
 # Installation
-$ git clone https://github.com/mishafrenkel/pomodoro-timer-react.git
-$ cd pomodoro-timer-react
-$ npm install
-$ npm start
+- git clone https://github.com/mishafrenkel/pomodoro-timer-react.git
+- cd pomodoro-timer-react
+- npm install
+- npm start
 Go to http://localhost:8080.
