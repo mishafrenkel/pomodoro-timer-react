@@ -11,7 +11,7 @@ Font Awesome
 LocalStorage
 Wink sound effect
 Demo
-View project demo at https://autumnchris.github.io/pomodoro-timer-reactjs.
+View project demo at
 
 # Installation
 $ git clone https://github.com/mishafrenkel/pomodoro-timer-react.git
