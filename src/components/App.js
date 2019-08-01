@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class App extends Component {
+class App extends Component {
 
   constructor(props) {
     super(props);
@@ -228,8 +228,11 @@ export default class App extends Component {
           <audio src="https://dl.dropbox.com/s/nacdk0xey4io5d8/wink-sound-effect.mp3" className="audio" />
         </main>
         {/* FOOTER */}
-        <footer>Coded by <a href="https://autumnbullard-portfolio.herokuapp.com" target="_blank">Autumn Bullard</a></footer>
+        <footer>Coded by <a href="https://github.com/mishafrenkel/pomodoro-timer-react" target="_blank">Michael Frenkel</a></footer>
       </div>
     );
   }
 }
+
+
+export default App;

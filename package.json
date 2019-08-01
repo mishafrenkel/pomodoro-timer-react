@@ -4,7 +4,10 @@
   "description": "My project for the Build a Pomodoro Clock challenge as part of the curriculum for the Front End Libraries Certification on Free Code Camp. Built with React.js.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open",
+    "deploy": "gh-pages -b gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
